@@ -1,6 +1,13 @@
+/* -*- mode: js; js-basic-offset: 4; indent-tabs-mode: nil -*- */
+
+const Clutter = imports.gi.Clutter;
+const Meta = imports.gi.Meta;
+const Shell = imports.gi.Shell;
+
+const AltTab = imports.ui.altTab;
 const Main = imports.ui.main;
-const ExtensionUtils = imports.misc.extensionUtils;
-const Config = imports.misc.config;
+const WindowManager = imports.ui.windowManager;
+
 
 let _id;
 
